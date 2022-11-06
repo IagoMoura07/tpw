@@ -1,0 +1,14 @@
+.teste {
+  background-color: white;
+  text-align: center;
+}
+h1 {
+  color: #006000;
+  padding-bottom: 30px;
+  font-family: "Bungee", cursive;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+}
