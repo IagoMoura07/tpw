@@ -38,7 +38,7 @@ const Containers = () => {
         </div>
         <Wave
           className="waved"
-          fill="#007915"
+          fill="#006000"
           paused={false}
           options={{
             height: 90,

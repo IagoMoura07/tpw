@@ -7,7 +7,11 @@
   text-decoration: none;
 }
 
-.navbar-toggler {
-  color: rgba(255, 255, 255, 0.5) !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
+.navbar a:hover {
+  color: #999;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(9deg)
+    brightness(104%) contrast(103%);
 }
