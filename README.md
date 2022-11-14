@@ -61,3 +61,4 @@
 | Funcionamento do back-end - correto uso das inclusões, alterações, consultas, exclusões e listagem das tabelas do banco de dados através da linguagem utilizada. | 2,5 |
 | Funcionamento do front-end - correta disposição, das telas, uso dos componentes Bootstrap. | 2,5 |
 | Total | 10,0 |
+s
