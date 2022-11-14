@@ -7,8 +7,7 @@
 **Instruções**
 
 **Formação da equipe**
-
-
+Kevin
 1. O grupo deverá ser formado por no mínimo 5 (cinco) e no máximo 6 (seis) componentes. Atenção! Não será permitido ao aluno executar o trabalho individualmente.
 2. A equipe deverá ter a seguinte formação:
     1. **Líder (1 profissional)** – Responsável por coordenar todo o trabalho dos subgrupos e manter contato, se necessário, com o professor. Será responsável também pelo cumprimento dos prazos, pelo andamento e documentação do projeto, testes do sistema, apresentação e entrega do trabalho.
