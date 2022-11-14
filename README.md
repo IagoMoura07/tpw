@@ -1,5 +1,3 @@
-#Apaga isso
-
 **Regras para Desenvolvimento do Projeto**
 
 **Atenção!**
