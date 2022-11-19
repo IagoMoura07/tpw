@@ -1,32 +1,20 @@
-// HOOKS 
+// HOOKS
 import Carousel from "react-bootstrap/Carousel";
 
-// CSS 
-import styles from "./UncontrolledExample.css";
+// CSS
 import Logo from "../assets/logo.svg";
+import styles from "../styles/Carousell.module.css";
 
-
-function UncontrolledExample() {
+function Carousell() {
   return (
-    <div className="sla">
+    <div className={styles.sla}>
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className={`${styles.d_block} w-100`}
             src={Logo}
             alt="First slide"
           />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1176555906.jpg"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -47,4 +35,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Carousell;

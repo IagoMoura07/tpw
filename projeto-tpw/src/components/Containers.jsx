@@ -1,5 +1,5 @@
 // COMPONENTS
-import KitchenSinkExample from "./KitchenSinkExample";
+import Cards from "./Cards";
 
 // HOOKS
 import { useEffect } from "react";
@@ -8,7 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 // CSS
-import styles from "./Container.css";
+import styles from "../styles/Container.module.css";
 
 const Containers = () => {
   useEffect(() => {
@@ -27,14 +27,14 @@ const Containers = () => {
           points: 2,
         }}
       />
-      <div className="teste">
+      <div className={styles.teste}>
         <div data-aos="flip-right">
-          <h1>-ﾠTﾠOﾠP ㅤSﾠAﾠLﾠEﾠSﾠ-</h1> 
+          <h1>-ﾠTﾠOﾠP ㅤSﾠAﾠLﾠEﾠSﾠ-</h1>
         </div>
-        <div className="c2">
-          <KitchenSinkExample />
-          <KitchenSinkExample />
-          <KitchenSinkExample />
+        <div className={styles.c2}>
+          <Cards />
+          <Cards />
+          <Cards />
         </div>
         <Wave
           className="waved"

@@ -1,5 +1,5 @@
-// PAGES 
-import UncontrolledExample from "../../components/UncontrolledExample";
+// PAGES
+import Carousell from "../../components/Carousell";
 import Containers from "../../components/Containers";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -7,10 +7,8 @@ import Footer from "../../components/Footer";
 export function Home() {
   return (
     <div>
-      <Navbar />
-      <UncontrolledExample />
+      <Carousell />
       <Containers />
-      <Footer/>
     </div>
   );
 }

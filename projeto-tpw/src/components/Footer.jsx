@@ -2,12 +2,12 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 // CSS
-import styles from "./Footer.css";
+import styles from "../styles/Footer.module.css";
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer className="footer">
-      <ul className="social_list">
+    <footer className={styles.footer}>
+      <ul className={styles.social_list}>
         <li>
           <a href="/">
             <FaFacebook />
@@ -29,11 +29,11 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <p className="copy_right">
+      <p className={styles.copy_right}>
         <span>Mari&Juana</span> &copy; 2022
       </p>
     </footer>
   );
 }
 
-export default Footer;
+

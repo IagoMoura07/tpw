@@ -3,9 +3,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 // CSS
-import styles from "./KitchenSinkExample.css";
+import styles from "../styles/Cards.module.css";
 
-function KitchenSinkExample() {
+function Cards() {
   return (
     <Card className={styles.card} style={{ width: "18rem" }}>
       <Card.Img
@@ -23,4 +23,4 @@ function KitchenSinkExample() {
   );
 }
 
-export default KitchenSinkExample;
+export default Cards;

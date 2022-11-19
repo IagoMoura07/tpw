@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  min-height: 70vh;
+}
+
 body {
   background-color: #007915;
   box-sizing: border-box;
