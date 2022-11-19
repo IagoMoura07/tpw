@@ -4,7 +4,7 @@ import styles from "./Login.module.css";
 function Login() {
   return (
     <div className={styles.login}>
-      <h1>Entrar</h1>
+      <h1 class = "teste">Entrar</h1>
       <p>Faça o login para poder utilizar o sistema</p>
       <form>
         <label>
